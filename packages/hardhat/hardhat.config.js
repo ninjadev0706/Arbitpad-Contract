@@ -24,7 +24,7 @@ const { isAddress, getAddress, formatUnits, parseUnits } = utils;
 */
 
 //
-const defaultNetwork = "bsctestnet";
+const defaultNetwork = "arbitrumone";
 
 const mainnetGwei = 120;
 
@@ -158,6 +158,14 @@ module.exports = {
       url: "https://data-seed-prebsc-1-s1.binance.org:8545/",
       gasPrice: 225000000000,
       chainId: 97,
+      accounts: {
+        mnemonic: mnemonic(),
+      },
+    },
+    arbitrumone: {
+      url: "https://arb1.arbitrum.io/rpc",
+      gasPrice: 225000000000,
+      chainId: 42161,
       accounts: {
         mnemonic: mnemonic(),
       },
