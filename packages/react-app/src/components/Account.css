@@ -1,0 +1,14 @@
+.connect_status:focus {
+    background-color: #fff;
+    color: #000;
+}
+
+.connect_status:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.connect_status:active {
+    background-color: #fff;
+    color: #000;
+}
